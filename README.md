@@ -32,4 +32,23 @@ The folder named 'data-preprocessing' contains two files:
 These two file need to be run at the begining of the code in the given order in order to clean the data and generate the necessary embeddings. 
 
 
+### Models
+
+There are three learning to rank models as part of this repository as follows:
+
+**Shallow Neural Network Model**
+
+To train and test the shallow neural network model run the following code:
+
+
+```
+python shallow_neural_net.py [ARG_1] [ARG_2]
+
+```
+
+- `[ARG_1]`: specify either 'bff' or 'dating' to specify which dataset you would like to use
+- `[ARG_2]`: speciify either 'one_way' or 'matches' to specify if you would like to evaluate a one way vote or a match
+
+
+
 
