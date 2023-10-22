@@ -18,6 +18,7 @@ To install the requirements for this project run:
 
 ```
 pip install -r requitements.txt
+
 ```
 
 ## Structure
