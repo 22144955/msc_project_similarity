@@ -71,4 +71,6 @@ python set_transfrmer_net.py [ARG_1] [ARG_2]
 - `[ARG_2]`: speciify either 'one_way' or 'matches' to specify if you would like to evaluate a one way vote or a match
 
 
+### Similarity Metrics
+
 
