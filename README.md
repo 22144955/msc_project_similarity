@@ -17,11 +17,18 @@ Furthermore, the study highlights a distinction between the two recommendation t
 To install the requirements for this project run:
 
 ```
-pip install requitements.txt
+pip install -r requitements.txt
 ```
 
 ## Structure
 
 ### Preprocessing the data
+
+The folder named 'data-preprocessing' contains the two files:
+* clean_data.py
+* create_embeddings.py
+
+These two file need to be run at the begining of the code in the given order in order to clean the data and generate the necessary embeddings. 
+
 
 
