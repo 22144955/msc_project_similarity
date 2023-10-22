@@ -649,11 +649,10 @@ if __name__ == "__main__":
         
     
     model_path = 'siamese_bff_set_matches_cosine.pth'
-    torch.save(siamese_net.state_dict(),model_path)
+    torch.save(siamese_net,model_path)
 
     #test the model
-    loaded_model = SiameseNetwork(embedding_dim, hidden_dim)
-    loaded_model.load_state_dict(torch.load(model_path))
+    loaded_model = torch.load(model_path)
     loaded_model.eval()
     
     #make a prediction
