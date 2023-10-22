@@ -877,11 +877,10 @@ if __name__ == "__main__":
         
     
     model_path = 'shallow_model_match_date.pth'
-    torch.save(shallow_model.state_dict(),model_path)
+    torch.save(shallow_model,model_path)
     
     model_path = 'shallow_model_match_date.pth'
-    loaded_model = ShallowNN(layer_size = 16)
-    loaded_model.load_state_dict(torch.load(model_path))
+    loaded_model = torch.load(model_path)
     loaded_model.eval()
     
     #make a prediction
