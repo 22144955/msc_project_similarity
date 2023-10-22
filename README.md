@@ -1,1 +1,6 @@
-# msc_project_similarity
+# Exploring the Efficacy of Similarity Metrics and Learning to Rank Models in Recommending Friends and Partners 
+
+## Author
+
+ZSHH2
+
