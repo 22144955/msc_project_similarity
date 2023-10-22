@@ -73,4 +73,13 @@ python set_transfrmer_net.py [ARG_1] [ARG_2]
 
 ### Similarity Metrics
 
+To run the similarity metrics, run the follwoing code: 
+
+```
+python similarity_metrics.py [ARG_1] [ARG_2]
+```
+
+- `[ARG_1]`: specify either 'bff' or 'dating' to specify which dataset you would like to use
+- `[ARG_2]`: speciify either 'one_way' or 'matches' to specify if you would like to evaluate a one way vote or a match
+
 
