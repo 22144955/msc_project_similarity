@@ -4,3 +4,6 @@
 
 ZSHH2
 
+## Structure
+
+### Preprocessing the data
