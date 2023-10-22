@@ -18,7 +18,6 @@ To install the requirements for this project run:
 
 ```
 pip install -r requitements.txt
-
 ```
 
 ## Structure
@@ -40,15 +39,36 @@ There are three learning to rank models as part of this repository as follows:
 
 To train and test the shallow neural network model run the following code:
 
-
 ```
 python shallow_neural_net.py [ARG_1] [ARG_2]
-
 ```
 
 - `[ARG_1]`: specify either 'bff' or 'dating' to specify which dataset you would like to use
 - `[ARG_2]`: speciify either 'one_way' or 'matches' to specify if you would like to evaluate a one way vote or a match
 
+
+**Siamese Network with Average Embedding Score**
+
+To train and test the siamese network with average embedding model run the following code:
+
+```
+python avg_siamese_net.py [ARG_1] [ARG_2]
+```
+
+- `[ARG_1]`: specify either 'bff' or 'dating' to specify which dataset you would like to use
+- `[ARG_2]`: speciify either 'one_way' or 'matches' to specify if you would like to evaluate a one way vote or a match
+
+
+**Siamese Network with Set Transformere**
+
+To train and test the siamese network with set transformer as input, first enter the 'set_transfrmer' directory and run the following code:
+
+```
+python set_transfrmer_net.py [ARG_1] [ARG_2]
+```
+
+- `[ARG_1]`: specify either 'bff' or 'dating' to specify which dataset you would like to use
+- `[ARG_2]`: speciify either 'one_way' or 'matches' to specify if you would like to evaluate a one way vote or a match
 
 
 
