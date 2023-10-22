@@ -82,4 +82,8 @@ python similarity_metrics.py [ARG_1] [ARG_2]
 - `[ARG_1]`: specify either 'bff' or 'dating' to specify which dataset you would like to use
 - `[ARG_2]`: speciify either 'one_way' or 'matches' to specify if you would like to evaluate a one way vote or a match
 
+### Data Exploration
+
+The 'data_exploration' folder contains notebooks that contain data analysis as part of the research. 
+
 
