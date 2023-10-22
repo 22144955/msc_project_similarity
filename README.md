@@ -25,7 +25,7 @@ pip install -r requitements.txt
 
 ### Preprocessing the data
 
-The folder named 'data-preprocessing' contains the two files:
+The folder named 'data-preprocessing' contains two files:
 * clean_data.py
 * create_embeddings.py
 
